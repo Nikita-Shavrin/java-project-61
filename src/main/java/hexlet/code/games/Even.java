@@ -1,4 +1,4 @@
-package hexlet.code;
+package hexlet.code.games;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -7,9 +7,7 @@ public class Even {
     public static void even() {
         int result = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Brain Games!"
-                +
-                "\nMay I have your name?");
+        System.out.println("May I have your name?");
         String userName = scanner.next();
         System.out.println("Hello, " + userName + "!");
         System.out.println("Answer 'yes' if the number is even, otherwise answer 'no'.\n");
