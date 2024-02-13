@@ -3,6 +3,7 @@ package hexlet.code;
 import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
 import hexlet.code.games.GCD;
+import hexlet.code.games.Progression;
 
 import java.util.Scanner;
 
@@ -61,6 +62,8 @@ public class Engine {
             Calc.calc();
         } else if (gameNumber == 4) {
             GCD.gcd();
+        } else if (gameNumber == 5) {
+            Progression.progression();
         }
     }
 }
