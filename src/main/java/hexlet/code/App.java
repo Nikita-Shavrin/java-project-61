@@ -1,6 +1,5 @@
 package hexlet.code;
 
-import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
 
 import java.util.Scanner;
@@ -12,6 +11,7 @@ public class App {
                 + "\n1 - Greet"
                 + "\n2 - Even"
                 + "\n3 - Calc"
+                + "\n4 - GCD"
                 + "\n0 - Exit"
                 + "\nYour choice:");
         int number = Integer.parseInt(scanner.next());
@@ -19,8 +19,10 @@ public class App {
         if (number == 1) {
             Cli.greeting();
         } else if (number == 2) {
-            Even.even();
+            Engine.userInteraction(number);
         } else if (number == 3) {
+            Engine.userInteraction(number);
+        } else if (number == 4) {
             Engine.userInteraction(number);
         }
         scanner.close();
