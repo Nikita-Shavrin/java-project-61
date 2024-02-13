@@ -16,6 +16,6 @@ public class Calc {
          calc.setCorrectAnswer(String.valueOf((rundomAction == 1) ? number1 + number2 :
                  (rundomAction == 2) ? number1 - number2 :
                          (rundomAction == 3) ? number1 * number2 : null));
-        calc.setQuestion(String.valueOf((number1 + " " + action + " " + number2)));
+        calc.setQuestion(number1 + " " + action + " " + number2);
     }
 }

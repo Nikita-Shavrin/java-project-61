@@ -1,6 +1,8 @@
 package hexlet.code;
 
 import hexlet.code.games.Calc;
+import hexlet.code.games.Even;
+import hexlet.code.games.GCD;
 
 import java.util.Scanner;
 
@@ -53,8 +55,12 @@ public class Engine {
     }
 
     public static void updateTheGame(int gameNumber) {
-        if (gameNumber == 3) {
+        if (gameNumber == 2) {
+            Even.even();
+        } else if (gameNumber == 3) {
             Calc.calc();
+        } else if (gameNumber == 4) {
+            GCD.gcd();
         }
     }
 }
