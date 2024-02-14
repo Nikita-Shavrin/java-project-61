@@ -9,5 +9,5 @@ public class Even {
         int rundomNumber = (int) (Math.random() * 100) + 1;
         even.setQuestion(String.valueOf(rundomNumber));
         even.setCorrectAnswer(((rundomNumber % 2) != 0) ? "no" : "yes");
-        }
     }
+}

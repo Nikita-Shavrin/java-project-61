@@ -2,8 +2,6 @@ package hexlet.code.games;
 
 import hexlet.code.Engine;
 
-import static java.lang.String.valueOf;
-
 public class Prime {
     public static void prime() {
         int rundomNumber1 = (int) (Math.random() * 100) + 1;

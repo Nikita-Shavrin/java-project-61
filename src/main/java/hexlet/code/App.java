@@ -1,7 +1,5 @@
 package hexlet.code;
 
-import hexlet.code.games.Even;
-
 import java.util.Scanner;
 
 public class App {
@@ -22,7 +20,7 @@ public class App {
             Cli.greeting();
         } else if (number == 2 || number == 3 || number == 4 || number == 5 || number == 6) {
             Engine.userInteraction(number);
-        } else
+        }
         scanner.close();
     }
 }
