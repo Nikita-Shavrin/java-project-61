@@ -1,7 +1,6 @@
 package hexlet.code.games;
 
 import hexlet.code.Engine;
-import sun.font.FontRunIterator;
 
 import java.util.Arrays;
 
