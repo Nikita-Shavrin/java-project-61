@@ -50,3 +50,4 @@ access.log
 /coverage/
 /db/*.sqlite3
 doc/**/*.txt
+*.cast
