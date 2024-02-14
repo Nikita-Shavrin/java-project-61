@@ -13,13 +13,14 @@ public class App {
                 + "\n3 - Calc"
                 + "\n4 - GCD"
                 + "\n5 - Progression"
+                + "\n6 - Prime"
                 + "\n0 - Exit"
                 + "\nYour choice:");
         int number = Integer.parseInt(scanner.next());
         System.out.println("Welcome to the Brain Games!");
         if (number == 1) {
             Cli.greeting();
-        } else if (number == 2 || number == 3 || number == 4 || number == 5) {
+        } else if (number == 2 || number == 3 || number == 4 || number == 5 || number == 6) {
             Engine.userInteraction(number);
         } else
         scanner.close();
